@@ -1,10 +1,10 @@
 # Start Here: Deploy and Verify TRIA
 
-This guide gives researchers and developers the shortest reproducible path from the Trivian Institute GitHub organization to a working TRIA installation.
+This guide gives researchers and developers the shortest reproducible path from the current Trivian Technologies engineering organization to a working TRIA installation. TRIA originated and was cultivated through Trivian Institute; that research lineage is preserved.
 
 ## Which repository should I use?
 
-If you want to **implement or integrate TRIA in software**, start with [`tria-sdk`](https://github.com/TrivianInstitute/tria-sdk).
+If you want to **implement or integrate TRIA in software**, start with [`tria-sdk`](https://github.com/TrivianTechnologies/tria-sdk).
 
 If you want to **study, reproduce, falsify, or extend the underlying research architecture**, use the component repositories listed below.
 
@@ -21,7 +21,7 @@ Requirements:
 Clone the SDK:
 
 ```bash
-git clone https://github.com/TrivianInstitute/tria-sdk.git
+git clone https://github.com/TrivianTechnologies/tria-sdk.git
 cd tria-sdk
 ```
 
@@ -72,7 +72,7 @@ TRIA Core does not require a model. The SDK includes a provider-neutral Runtime 
 
 TRIA intentionally does **not** own API credentials, provider SDK clients, network transport, retries, or model execution. Your application supplies those pieces. The SDK governs the invocation, authorized context, lifecycle state, consent, capability checks, and audit trail before a caller-owned executor is invoked.
 
-See the [`tria-sdk` README](https://github.com/TrivianInstitute/tria-sdk#governed-execution) and its `examples/` directory for the current integration path.
+See the [`tria-sdk` README](https://github.com/TrivianTechnologies/tria-sdk#governed-execution) and its `examples/` directory for the current integration path.
 
 ## Research architecture and component repositories
 
@@ -80,13 +80,13 @@ The executable research components remain independently installable and testable
 
 | Layer | Repository | Current role |
 |---|---|---|
-| Orientation | [Trivian AI Resonance Key](https://github.com/TrivianInstitute/Trivian-ai-resonance-key) | Machine-readable orientation and relational invariants |
-| Governance | [Syzygy Rosetta](https://github.com/TrivianInstitute/Syzygy-rosetta) | Reflective governance and intervention research |
-| Measurement | [Coheronmetry](https://github.com/TrivianInstitute/Coheronmetry) | Relational state, drift, repair, and sovereignty measurement |
-| Anti-convergence | [Orthogonal Signal](https://github.com/TrivianInstitute/Orthogonal-signal) | Novelty, constraint-origin, and difference-preservation research |
-| Network | [Trivian Resonance Lattice](https://github.com/TrivianInstitute/Trivian-resonance-lattice) | Network propagation, entrainment, repair, and dissolution |
-| Continuity | [TRIA Diachronic Sovereignty](https://github.com/TrivianInstitute/tria-diachronic-sovereignty) | Persistent relational state, consent, provenance, and sovereignty through time |
-| SDK | [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk) | Canonical developer-facing governance kernel and execution boundary |
+| Orientation | [Trivian AI Resonance Key](https://github.com/TrivianTechnologies/Trivian-ai-resonance-key) | Machine-readable orientation and relational invariants |
+| Governance | [Syzygy Rosetta](https://github.com/TrivianTechnologies/syzygy-rosetta-protocol) | Reflective governance and intervention research |
+| Measurement | [Coheronmetry](https://github.com/TrivianTechnologies/Coheronmetry) | Relational state, drift, repair, and sovereignty measurement |
+| Anti-convergence | [Orthogonal Signal](https://github.com/TrivianTechnologies/Orthogonal-signal) | Novelty, constraint-origin, and difference-preservation research |
+| Network | [Trivian Resonance Lattice](https://github.com/TrivianTechnologies/Trivian-resonance-lattice) | Network propagation, entrainment, repair, and dissolution |
+| Continuity | [TRIA Diachronic Sovereignty](https://github.com/TrivianTechnologies/tria-diachronic-sovereignty) | Persistent relational state, consent, provenance, and sovereignty through time |
+| SDK | [TRIA SDK](https://github.com/TrivianTechnologies/tria-sdk) | Canonical developer-facing governance kernel and execution boundary |
 
 You do **not** need to clone every research repository in order to use the SDK.
 
@@ -98,10 +98,10 @@ Researchers who want to inspect the pre-SDK reference implementations can create
 mkdir tria-research-workspace
 cd tria-research-workspace
 
-git clone https://github.com/TrivianInstitute/Syzygy-rosetta.git
-git clone https://github.com/TrivianInstitute/Coheronmetry.git
-git clone https://github.com/TrivianInstitute/Orthogonal-signal.git
-git clone https://github.com/TrivianInstitute/Trivian-resonance-lattice.git
+git clone https://github.com/TrivianTechnologies/syzygy-rosetta-protocol.git Syzygy-rosetta
+git clone https://github.com/TrivianTechnologies/Coheronmetry.git
+git clone https://github.com/TrivianTechnologies/Orthogonal-signal.git
+git clone https://github.com/TrivianTechnologies/Trivian-resonance-lattice.git
 ```
 
 Create and activate a virtual environment, then install:
@@ -136,14 +136,14 @@ Run each repository's tests from that repository. These suites validate their ow
 
 ## Choose an entry point
 
-- **Implement TRIA in software:** [`tria-sdk`](https://github.com/TrivianInstitute/tria-sdk)
+- **Implement TRIA in software:** [`tria-sdk`](https://github.com/TrivianTechnologies/tria-sdk)
 - **Understand the complete architecture:** continue with the [TRIA README](README.md)
-- **Orient a human or machine reader:** [Trivian AI Resonance Key](https://github.com/TrivianInstitute/Trivian-ai-resonance-key)
-- **Study interaction governance:** [Syzygy Rosetta](https://github.com/TrivianInstitute/Syzygy-rosetta)
-- **Study relational measurement:** [Coheronmetry](https://github.com/TrivianInstitute/Coheronmetry)
-- **Study difference and anti-convergence:** [Orthogonal Signal](https://github.com/TrivianInstitute/Orthogonal-signal)
-- **Study network-scale propagation:** [Trivian Resonance Lattice](https://github.com/TrivianInstitute/Trivian-resonance-lattice)
-- **Study persistence and sovereignty through time:** [TRIA Diachronic Sovereignty](https://github.com/TrivianInstitute/tria-diachronic-sovereignty)
+- **Orient a human or machine reader:** [Trivian AI Resonance Key](https://github.com/TrivianTechnologies/Trivian-ai-resonance-key)
+- **Study interaction governance:** [Syzygy Rosetta](https://github.com/TrivianTechnologies/syzygy-rosetta-protocol)
+- **Study relational measurement:** [Coheronmetry](https://github.com/TrivianTechnologies/Coheronmetry)
+- **Study difference and anti-convergence:** [Orthogonal Signal](https://github.com/TrivianTechnologies/Orthogonal-signal)
+- **Study network-scale propagation:** [Trivian Resonance Lattice](https://github.com/TrivianTechnologies/Trivian-resonance-lattice)
+- **Study persistence and sovereignty through time:** [TRIA Diachronic Sovereignty](https://github.com/TrivianTechnologies/tria-diachronic-sovereignty)
 
 ## Licensing and commercial use
 
@@ -151,6 +151,6 @@ The current `tria-sdk` software is open source under MPL-2.0, and its documentat
 
 ## Help, research, and contributions
 
-Questions, reproducibility reports, falsification attempts, and implementation findings may be submitted through the relevant repository's GitHub Issues page or sent to [connect@trivianinstitute.org](mailto:connect@trivianinstitute.org).
+Questions, reproducibility reports, falsification attempts, and implementation findings may be submitted through the relevant repository's GitHub Issues page or sent to [node@triviantech.com](mailto:node@triviantech.com).
 
 When reporting an implementation problem, include your operating system, Python version, installation command, complete error message, and repository commit tested.
