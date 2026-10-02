@@ -2,6 +2,14 @@
 
 **Current project home:** [Trivian Technologies](https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture).
 
+**Status:** CANONICAL / ACTIVE. The umbrella TRIA research architecture; its claims remain subject to falsification and independent validation.
+
+**Originator:** Sarasha Elion. **Research lineage:** this work originated and was cultivated through Trivian Institute. **Current engineering and commercial-development home:** Trivian Technologies.
+
+Repository stewardship is distinct from authorship, copyright, and broader IP ownership. The intended founder IP assignment has not been executed; existing contributor, third-party, and open-source rights remain applicable.
+
+**Technical and ecosystem contact:** [node@triviantech.com](mailto:node@triviantech.com). **Investment inquiries:** [invest@triviantech.com](mailto:invest@triviantech.com).
+
 ## Trivian Relational Intelligence Architecture
 
 **Relational infrastructure for coherent, adaptive, plural human–AI and multi-agent systems.**
@@ -232,6 +240,14 @@ TRIA may be relevant to:
 
 Potential application domains include organizational decision support, financial review, healthcare coordination, education, companion AI, and autonomous-agent networks. These are proposed research and pilot contexts, not validated deployment claims.
 
+## Historical Institute sponsorship context
+
+The following Institute sponsorship context is retained as historical provenance. Current Technologies technical and investment inquiries use the contacts above; disposition of the historical funding links remains under review.
+
+Sponsorships support documentation, testing, reproducible evaluations, compatibility work, security hardening, reference implementations, issue stewardship, and independent validation through Trivian Institute. Sponsorship does not convey governance authority, influence research findings, certification, endorsement, or special rights beyond those granted to the public under the applicable open licenses.
+
+[**Sponsor Trivian Institute through GitHub Sponsors**](https://github.com/sponsors/TrivianInstitute) · [Review the funding policy and tiers](https://github.com/TrivianInstitute/.github/blob/main/FUNDING.md)
+
 ## Collaboration
 
 The TRIA project welcomes:
@@ -254,7 +270,7 @@ When citing the integrated architecture, use:
 
 ```text
 Elion, Sarasha. TRIA: Trivian Relational Intelligence Architecture. Trivian Institute, 2026.
-https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture
+https://github.com/TrivianInstitute/trivian-relational-intelligence-architecture
 ```
 
 BibTeX:
@@ -266,7 +282,7 @@ BibTeX:
   year         = {2026},
   publisher    = {Trivian Institute},
   howpublished = {GitHub repository},
-  url          = {https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture}
+  url          = {https://github.com/TrivianInstitute/trivian-relational-intelligence-architecture}
 }
 ```
 
@@ -346,6 +362,7 @@ machine_use:
   implementation: permitted_subject_to_license
 research_posture: falsifiable_and_open_to_revision
 validation_status: independent_external_validation_required
+contact: node@triviantech.com
 ```
 
 ---
