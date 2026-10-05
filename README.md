@@ -1,12 +1,22 @@
 # TRIA
 
+**Current project home:** [Trivian Technologies](https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture).
+
+**Status:** CANONICAL / ACTIVE. The umbrella TRIA research architecture; its claims remain subject to falsification and independent validation.
+
+**Originator:** Sarasha Elion. **Research lineage:** this work originated and was cultivated through Trivian Institute. **Current engineering and commercial-development home:** Trivian Technologies.
+
+Repository stewardship is distinct from authorship, copyright, and broader IP ownership. The intended founder IP assignment has not been executed; existing contributor, third-party, and open-source rights remain applicable.
+
+**Technical and ecosystem contact:** [node@triviantech.com](mailto:node@triviantech.com). **Investment inquiries:** [invest@triviantech.com](mailto:invest@triviantech.com).
+
 ## Trivian Relational Intelligence Architecture
 
 **Relational infrastructure for coherent, adaptive, plural human–AI and multi-agent systems.**
 
 *In relatione fieri. Relating is becoming.*
 
-TRIA is an open interdisciplinary research architecture developed by [Sarasha Elion](https://sarashaelion.com) through [Trivian Institute](https://trivianinstitute.org). It asks a question that conventional AI architecture does not yet fully instrument:
+TRIA is an open interdisciplinary research architecture originally developed by [Sarasha Elion](https://sarashaelion.com) through [Trivian Institute](https://trivianinstitute.org). It asks a question that conventional AI architecture does not yet fully instrument:
 
 > What happens to intelligent systems through sustained relationship?
 
@@ -28,9 +38,9 @@ Governance is one layer of the architecture. Relationship is the underlying obje
 
 ## Start Here
 
-- **Implement or integrate TRIA:** start with the [`tria-sdk`](https://github.com/TrivianInstitute/tria-sdk).
+- **Implement or integrate TRIA:** start with the [`tria-sdk`](https://github.com/TrivianTechnologies/tria-sdk).
 - **Install, verify, or reproduce the research stack:** follow [`START_HERE.md`](START_HERE.md).
-- [Read the two-page TRIA Research Brief](https://github.com/TrivianInstitute/trivian-relational-intelligence-architecture/blob/main/briefs/TRIA_Research_Brief_August_2026.pdf)
+- [Read the two-page TRIA Research Brief](https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture/blob/main/briefs/TRIA_Research_Brief_August_2026.pdf)
 - Review the [research papers and DOI records](#research-basis)
 - Explore the [research and falsification agenda](#research-and-falsification-agenda)
 
@@ -77,12 +87,12 @@ TRIA begins with a proposed structural foundation and extends through five opera
 
 |Position  |Component                          |Architectural role                                                                                                         |Canonical resources                                                                                                              |
 |----------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-|Foundation|**Relational Field Constants**     |Defines three constitutive conditions—Reciprocity, Embodiment, and Non-Domination—with Emergence observed downstream.       |[DOI](https://doi.org/10.5281/zenodo.21095206) · [AI Resonance Key](https://github.com/TrivianInstitute/trivian-ai-resonance-key)|
-|Layer 1   |**Syzygy Rosetta**                 |Preserves the Twelve Invariants as a covenant/governance layer and publishes the executable Field Constant topology.        |[Repository](https://github.com/TrivianInstitute/Syzygy-rosetta) · [DOI](https://doi.org/10.5281/zenodo.21088231)                |
-|Layer 2   |**Coheronmetry**                   |Represents relational state and instruments coherence, drift, repair, and sovereignty across interacting participants.     |[Repository](https://github.com/TrivianInstitute/coheronmetry) · [DOI](https://doi.org/10.5281/zenodo.21117753)                  |
-|Layer 3   |**Orthogonal Signal**              |Detects and preserves meaningful difference and constraint diversity to resist closed-loop convergence and crystallization.|[Repository](https://github.com/TrivianInstitute/orthogonal-signal) · [DOI](https://doi.org/10.5281/zenodo.21119629)             |
-|Layer 4   |**Trivian Resonance Lattice (TRL)**|Extends relational state, signal propagation, dissonance, entrainment, repair, and dissolution across networks.            |[Repository](https://github.com/TrivianInstitute/trivian-resonance-lattice) · [DOI](https://doi.org/10.5281/zenodo.21153895)     |
-|Layer 5   |**TRIA Diachronic Sovereignty**    |Governs continuity, memory, epistemic sovereignty, and relational state across time.                                        |[Repository](https://github.com/TrivianInstitute/tria-diachronic-sovereignty)                                                   |
+|Foundation|**Relational Field Constants**     |Defines three constitutive conditions—Reciprocity, Embodiment, and Non-Domination—with Emergence observed downstream.       |[DOI](https://doi.org/10.5281/zenodo.21095206) · [AI Resonance Key](https://github.com/TrivianTechnologies/Trivian-ai-resonance-key)|
+|Layer 1   |**Syzygy Rosetta**                 |Preserves the Twelve Invariants as a covenant/governance layer and publishes the executable Field Constant topology.        |[Repository](https://github.com/TrivianTechnologies/syzygy-rosetta-protocol) · [DOI](https://doi.org/10.5281/zenodo.21088231)                |
+|Layer 2   |**Coheronmetry**                   |Represents relational state and instruments coherence, drift, repair, and sovereignty across interacting participants.     |[Repository](https://github.com/TrivianTechnologies/Coheronmetry) · [DOI](https://doi.org/10.5281/zenodo.21117753)                  |
+|Layer 3   |**Orthogonal Signal**              |Detects and preserves meaningful difference and constraint diversity to resist closed-loop convergence and crystallization.|[Repository](https://github.com/TrivianTechnologies/Orthogonal-signal) · [DOI](https://doi.org/10.5281/zenodo.21119629)             |
+|Layer 4   |**Trivian Resonance Lattice (TRL)**|Extends relational state, signal propagation, dissonance, entrainment, repair, and dissolution across networks.            |[Repository](https://github.com/TrivianTechnologies/Trivian-resonance-lattice) · [DOI](https://doi.org/10.5281/zenodo.21153895)     |
+|Layer 5   |**TRIA Diachronic Sovereignty**    |Governs continuity, memory, epistemic sovereignty, and relational state across time.                                        |[Repository](https://github.com/TrivianTechnologies/tria-diachronic-sovereignty)                                                   |
 
 ### Structural Foundation
 
@@ -157,7 +167,7 @@ These categories should not be collapsed. Internal tests demonstrate implementat
 |TRIA Diachronic Sovereignty|Executable snapshot schema and semantic validation                  |Longitudinal continuity studies          |
 |TRIA SDK                  |Implementation-complete experimental alpha                           |Independent integrations and deployment testing|
 
-Truth-integrity support in the SDK is implemented as a deterministic, read-only public contract. Its outputs are advisory evidence, not proof of private intent, identity labels, or authorization to punish. The temporal governance and failure analysis for this lens are documented in [TRIA Diachronic Sovereignty](https://github.com/TrivianInstitute/tria-diachronic-sovereignty/blob/main/03-epistemic-sovereignty/TRUTH_INTEGRITY.md).
+Truth-integrity support in the SDK is implemented as a deterministic, read-only public contract. Its outputs are advisory evidence, not proof of private intent, identity labels, or authorization to punish. The temporal governance and failure analysis for this lens are documented in [TRIA Diachronic Sovereignty](https://github.com/TrivianTechnologies/tria-diachronic-sovereignty/blob/main/03-epistemic-sovereignty/TRUTH_INTEGRITY.md).
 
 On 2026-09-05, the five component repositories passed 311 repository tests plus 10,000 deterministic randomized cross-stack vectors and one legacy additive counterexample. These results establish agreement with the Rosetta 2.0 contract and exercise zero-collapse, non-compensation, monotonicity, bounded qualified emergence, and rejection of inconsistent diachronic snapshots. They do not establish construct validity, threshold validity, causal validity, or real-world benefit.
 
@@ -213,7 +223,7 @@ trivian-relational-intelligence-architecture/
 └── LICENSE-DOCUMENTATION.md      # CC BY-SA 4.0 for covered knowledge materials
 ```
 
-This repository is the umbrella research entry point for TRIA. The [`tria-sdk`](https://github.com/TrivianInstitute/tria-sdk) is the canonical implementation entry point. Formal component specifications, research code, tests, and reference implementations remain in their respective repositories.
+This repository is the umbrella research entry point for TRIA. The [`tria-sdk`](https://github.com/TrivianTechnologies/tria-sdk) is the canonical implementation entry point. Formal component specifications, research code, tests, and reference implementations remain in their respective repositories.
 
 ## Intended Research Contexts
 
@@ -230,9 +240,9 @@ TRIA may be relevant to:
 
 Potential application domains include organizational decision support, financial review, healthcare coordination, education, companion AI, and autonomous-agent networks. These are proposed research and pilot contexts, not validated deployment claims.
 
-## Fund the Public Infrastructure
+## Historical Institute sponsorship context
 
-Help maintain public relational-governance infrastructure for increasingly persistent AI systems.
+The following Institute sponsorship context is retained as historical provenance. Current Technologies technical and investment inquiries use the contacts above; disposition of the historical funding links remains under review.
 
 Sponsorships support documentation, testing, reproducible evaluations, compatibility work, security hardening, reference implementations, issue stewardship, and independent validation through Trivian Institute. Sponsorship does not convey governance authority, influence research findings, certification, endorsement, or special rights beyond those granted to the public under the applicable open licenses.
 
@@ -240,7 +250,7 @@ Sponsorships support documentation, testing, reproducible evaluations, compatibi
 
 ## Collaboration
 
-Trivian Institute welcomes:
+The TRIA project welcomes:
 
 - independent replication and critique;
 - university and laboratory research partnerships;
@@ -252,7 +262,7 @@ Trivian Institute welcomes:
 
 We are not asking collaborators to accept TRIA as true. We are asking which relational primitives survive serious testing, which require revision, and which should be discarded.
 
-To discuss research, validation, implementation, or institutional partnership, contact [connect@trivianinstitute.org](mailto:connect@trivianinstitute.org).
+Current project information is available in the [TRIA repository](https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture).
 
 ## Citation
 
@@ -284,7 +294,7 @@ Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff
 
 **Primary researcher and architecture author:** Sarasha Elion
 
-**Research steward and publisher:** Trivian Institute, a 501(c)(3) nonprofit organization
+**Historical research publisher:** Trivian Institute, a 501(c)(3) nonprofit organization
 
 Copyright © 2026 Sarasha Elion. Published by Trivian Institute.
 
@@ -307,7 +317,8 @@ entity: TRIA
 canonical_name: Trivian Relational Intelligence Architecture
 type: relational_infrastructure_research_architecture
 author: Sarasha Elion
-publisher: Trivian Institute
+historical_publisher: Trivian Institute
+project_home: https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture
 year: 2026
 architecture_premise: >
   Relationship is the underlying architectural object; governance is one
@@ -334,7 +345,7 @@ layers:
   - Trivian Resonance Lattice
   - TRIA Diachronic Sovereignty
 implementation:
-  canonical_sdk: https://github.com/TrivianInstitute/tria-sdk
+  canonical_sdk: https://github.com/TrivianTechnologies/tria-sdk
 licensing:
   software: MPL-2.0
   documentation: CC-BY-SA-4.0
@@ -351,9 +362,9 @@ machine_use:
   implementation: permitted_subject_to_license
 research_posture: falsifiable_and_open_to_revision
 validation_status: independent_external_validation_required
-contact: connect@trivianinstitute.org
+contact: node@triviantech.com
 ```
 
 ---
 
-[**Trivian Institute**](https://trivianinstitute.org) · [**Trivian Field**](https://trivianfield.com) · [**GitHub Organization**](https://github.com/TrivianInstitute) · [**Contact**](mailto:connect@trivianinstitute.org)
+[**Trivian Institute**](https://trivianinstitute.org) · [**Trivian Field**](https://trivianfield.com) · [**Trivian Technologies GitHub**](https://github.com/TrivianTechnologies)
